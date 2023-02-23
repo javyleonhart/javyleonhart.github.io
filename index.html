@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+    <link rel="stylesheet" href="C:\Users\Javo\Desktop\Javier\Programación\html\ProyectoCV\cvstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c24afc5d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Curriculum vitae</h1>
+        <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="">
+    </header>
+
+    <div>
+        <button id="ltema">Cambiar a modo claro</button>
+        <button id="dtema">Cambiar a modo oscuro</button>
+    </div>
+
+    <section id="Secdatos">
+        <h3>Datos personales</h3>
+        <ul>
+            <li><i class="fa-solid fa-user fa-bounce"></i> Nombre y Apellido</li>
+             <span> Javier Yañez</span> 
+
+            <li> <i class="fa-solid fa-envelope fa-bounce"></i> Mail</li>
+             <span> <a href="mailto:xavy93@hotmail.com">
+                xavy93@hotmail.com</a></span>
+
+            <li> <i class="fa-regular fa-calendar-days fa-bounce"></i> Fecha de nacimiento</li>
+             <span>15/03/1993</span>
+
+            <li> <i class="fa-solid fa-location-dot fa-bounce"></i> Dirección</li>
+             <span>Calle falsa 123</span>
+
+            <li> <i class="fa-solid fa-phone fa-bounce"></i> Telefono</li> 
+            <span>2645674033</span>
+
+            <li>Redes sociales:</li> 
+                <a href="https://www.facebook.com/javy93"> <i class="fa-brands fa-facebook fa-bounce"></i> Facebook</a>
+                <a href="https://www.instagram.com/javi.yanez93/?hl=es"> <i class="fa-brands fa-instagram fa-bounce"></i> Instagram</a>
+                <a href="https://www.instagram.com/reflexionesenverso/?hl=es"> <i class="fa-brands fa-instagram fa-bounce"></i> Blog en IG</a>
+       </ul>       
+    </section>
+
+    <section>
+        <h3>Estudios</h3>
+        <ul> 
+                <li> <i class="fa-solid fa-book fa-beat"></i> 
+                    Profesorado de educacion física - Instituto Santa Maria</li>
+                <li> <i class="fa-solid fa-book fa-beat"></i>
+                     Bases de programación front-end - Argentina programa 4.0</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Habilidades</h3>
+        <ul>
+            <li> <i class="fa-solid fa-brain fa-shake"></i></i> Curiosidad y aprendizaje continuo</li>
+            <li> <i class="fa-solid fa-brain fa-shake"></i> Redaccion y escritura</li>
+            <li> <i class="fa-solid fa-brain fa-shake"></i> Habilidades informáticas</li>
+            <li> <i class="fa-solid fa-brain fa-shake"></i> Inglés</li>
+            <li> <i class="fa-solid fa-brain fa-shake"></i> Pensamiento crítico</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Otros estudios</h3>
+        <button onclick="spoiler1()">Spoiler</button>
+        <ul class="spoilers" id="lista1">
+            <li> <i class="fa-solid fa-book-medical fa-beat-fade"></i>
+                 Licenciatura en fisiologia del ejercicio - Univ. Aconcagua (falta tesis)</li>
+
+            <li> <i class="fa-solid fa-book-medical fa-beat-fade"></i>
+                 Profesorado de tenis - AAT</li>
+
+            <li> <i class="fa-solid fa-book-medical fa-beat-fade"></i>
+                 Juez de linea de tenis - Dpto. arbitraje AAT</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Sobre mí</h3>
+        <button onclick="spoiler2()">Spoiler</button>
+        <p class="spoilers" id="pabout">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Quisque aliquam, mi sit amet scelerisque varius, mauris ipsum malesuada augue,
+             eget cursus arcu nisl in mauris. Morbi facilisis arcu eu imperdiet consequat. 
+             In eu nisl sed augue egestas feugiat. Integer et lacinia mi. 
+             Etiam consectetur, nibh id feugiat volutpat, nunc mauris dapibus est, 
+             ac aliquet sapien mi non metus. Integer imperdiet, est in finibus 
+             tempus, nisl ipsum consequat orci, eget elementum lectus sapien in ante. 
+             Nam quis ullamcorper lacus, quis varius augue. Vestibulum fringilla libero est, 
+             id mattis enim molestie in. Praesent in turpis sem. Nulla facilisi. 
+             Donec dictum elit a massa congue, porttitor facilisis erat volutpat.
+
+            Curabitur condimentum, enim eu tempus pulvinar, quam est faucibus mauris, 
+            sed tincidunt nulla enim in enim. Cras nec malesuada lacus. 
+            Praesent non turpis eu elit sollicitudin vehicula. 
+            Etiam vulputate nulla purus, ac vulputate orci dignissim ac. 
+            Vivamus accumsan purus at magna luctus, at suscipit lacus faucibus. 
+            Phasellus malesuada lorem eget eros bibendum hendrerit. 
+            Integer feugiat semper erat vitae auctor. Ut a arcu hendrerit, 
+            sollicitudin urna non, mattis enim.
+            
+            Nam ut diam nec ligula accumsan commodo eget ac lectus. 
+            Quisque sed mollis tellus. Nullam felis lectus, pellentesque at finibus vel, 
+            eleifend ac lacus. Proin justo turpis, egestas quis dolor ac, 
+            elementum viverra justo. Suspendisse potenti. Vestibulum suscipit 
+            magna metus, vel feugiat dolor fermentum eu. Nam sit amet leo non 
+            purus pharetra blandit. Praesent nec lacus vel metus egestas feugiat 
+            volutpat eget dolor.</p>
+            <script src="C:\Users\Javo\Desktop\Javier\Programación\html\ProyectoCV\funciones.js"></script>
+    </section>
+</body>
+</html>
