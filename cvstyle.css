@@ -66,6 +66,6 @@ li{
   @media only screen and (max-width: 380px) {
     #Secdatos{
         background-size:50px,50px;
-        background-position: center right;
+         background-position: 90% 70%;
     }
   }
