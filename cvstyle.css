@@ -59,13 +59,13 @@ li{
 @media only screen and (max-width: 480px) {
     #Secdatos{
         background-size:100px,100px;
-         background-position: 90% 70%;
+         background-position: 95% 70%;
     }
   }
 
   @media only screen and (max-width: 380px) {
     #Secdatos{
         background-size:50px,50px;
-         background-position: 90% 70%;
+         background-position: 95% 70%;
     }
   }
