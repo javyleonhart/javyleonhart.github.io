@@ -55,3 +55,17 @@ li{
 #ltema{
     display: none;
 }
+
+@media only screen and (max-width: 480px) {
+    #Secdatos{
+        background-size:100px,100px;
+        background-position: center right;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    #Secdatos{
+        background-size:50px,50px;
+        background-position: center right;
+    }
+  }
